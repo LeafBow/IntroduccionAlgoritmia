@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;vTipoAceite&apos; in &apos;programas.FrmDescuentoCodigo.actionPerformedBtnCalcular(...)&apos; to &apos;vCodigoAceite&apos;&#x0D;&#x0A;- Original project: &apos;Clase4&apos;&#x0D;&#x0A;- Original element: &apos;programas.FrmDescuentoCodigo.actionPerformedBtnCalcular(ActionEvent).vTipoAceite&apos;&#x0D;&#x0A;- Renamed element: &apos;vTipoAceite&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;vTipoAceite&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;programas{FrmDescuentoCodigo.java[FrmDescuentoCodigo~actionPerformedBtnCalcular~QActionEvent;@vTipoAceite!2864!2889!2868!2878!I!0!false" name="vCodigoAceite" references="true" stamp="1722869783320" version="1.0"/>
+</session>

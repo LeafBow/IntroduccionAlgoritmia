@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myh1" class="democlass">El objeto Elemento </h1>
+    <h2>Metedo getAttribute</h2>
+
+    <p>El valor de la clase atributo h1 es:</p>
+    <p id="demo"></p>
+
+    <script>
+        const elemnt = document.getElementById("myh1");
+        let text = elemnt.getAttribute("class");
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

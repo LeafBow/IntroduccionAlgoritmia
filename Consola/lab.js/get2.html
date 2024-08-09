@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get 2</title>
+</head>
+<body>
+    <h1>El elemento Objeto</h1>
+    <h2>El metodo getAttributeNode</h2>
+    lea acerca de <a id="myAnchor" href="dom_obj_attribute.asp"
+    target="_blank">Attribute object</a>
+    <p>click en el boton para mostrar el valor del atributo atributo</p>
+    <button onclick="myFunction()">Presioname!!</button>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction(){
+            const element = document.getElementById("myAnchor");
+            let text = element.getAttributeNode("target").value;
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+</body>
+</html>

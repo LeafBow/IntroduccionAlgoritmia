@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myFunc(ElObjeto){
+            ElObjeto.make = "Toyota";
+            ElObjeto.modelo = "Yaris";
+        }
+        var mycar = {make:'Honda', model:'Accord',year:1990};
+        var x, y,xx;
+        x = mycar.make;
+        xx = mycar.model
+        document.write("Mi auto es: "+x+".<br><br>");
+        document.write("Y su modelo es: "+xx+".<br><br>");
+
+        myFunc(mycar);
+        y=mycar.make
+        yy= mycar.modelo 
+        document.write("Mi auto es: "+y+".<br><br>");
+        document.write("Y su modelo es: "+yy+".<br><br>");
+    </script>
+</body>
+</html>

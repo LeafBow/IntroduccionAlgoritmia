@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .wrapper > div {
+            border-radius: 5px;
+            background-color: rgb(204, 255, 127);
+            padding: 1em;
+        }
+        .wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px;
+            gap: 10px;
+        }
+        .box1{
+            grid-column: 2/4;
+            grid-row: 1;
+        }
+        .box2{
+            grid-column: 1;
+            grid-row: 1/3;
+        }
+        .box3{
+            grid-column: 3;
+            grid-row: 2;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box1">uno</div>
+        <div class="box2">dos</div>
+        <div class="box3">tres</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>El elemento Objeto</h1>
+    <h2>El metodo getAttributeNode</h2>
+
+    <p>click sobre el boton para mostrar el valor de "onclick"</p>
+    <button id="myBtn" onclick="myFunction()">Intentalo!</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            var element = document.getElementById("myBtn");
+            var attr = element.getAttributeNode("onclick").value;
+            document.getElementById("demo").innerHTML=attr;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo 4</title>
+    <style>
+        html{
+            font-family: sans-serif;
+        }
+        form {
+            display: table;
+            margin: 0 auto;
+        }
+        form div{
+            display: table-row;
+        }
+        form label, form input{
+            display: table-cell;
+            margin-bottom: 10px;
+        }
+        form label{
+            width: 200px;
+            padding-right: 5%;
+            text-align: right;
+        }
+        form input{
+            width: 300px;
+        }
+        form p{
+            display: table-caption;
+            caption-side: bottom;
+            color: black;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p>Dime tu nombre y edad</p>
+        <div>
+            <label for="fname">Nombre:</label>
+            <input type="text" id="lname"/>
+        </div>
+        <div>
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname"/>
+        </div>
+        <div>
+            <label for="age">Edad:</label>
+            <input type="text" id="age"/>
+        </div>
+    </form>
+</body>
+</html>

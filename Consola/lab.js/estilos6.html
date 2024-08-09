@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodo set</title>
+    <style>
+        .democlass{
+            color: blueviolet;
+        }
+    </style>
+
+
+</head>
+<body>
+      <h1 id="myh1">Objeto Elemntos</h1>
+      <h2>El método setAttribute</h2>
+      <p>Clic en "active clase" para añadir a objeto elementos</p>
+      <button onclick="miFuncion()">Añada clase</button>
+      <script>
+        function miFuncion(){
+            document.getElementById("myh1").setAttribute("class","democlass");
+        }
+      </script>
+</body>
+</html>

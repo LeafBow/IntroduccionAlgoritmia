@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set 2-funciones
+    </title>
+    <style type="text/css">label {display: block; margin: 5px;}</style>
+    <script type="text/javascript">
+     Window.onload = function(){
+        var ejemplo = document.getElementById('ejemplo');
+        ejemplo.addEventListener("click", ejecutarEjemplo);
+     }    
+     function ejecutarEjemplo(){
+        var msg = '';
+        var formularios = document.forms;
+        for (var i=0; i<formularios.length; i++){
+          for( var j=0;j<formularios[i].elements.length;j++){
+            if(formularios[i].elements[j].type=='text'){
+            msg = msg + '\n\nValor inicial maxlength:'+formularios[i].elements[j].maxLength;
+            msg=msg + '\n\nFijada longitud maxima 5 para elemento con Id:'+formularios[i].elements[j].id;
+            formularios[i].elements[j].maxLength=5;
+          }
+        }
+      }
+      alert(msg);
+     }
+    
+    </script>
+</head>
+<body>
+    <div id="cabecera">
+        <h2>Get y Set</h2>
+        <h3>javascript</h3>
+    </div>
+    <div style="color:blue;margin: 20px;" id="ejemplo">Pulsa click</div>
+    <form name="formulariosContacto" method="get" action="accion1.html">
+        <h2>Formulario de Contacto</h2>
+        <label>Nombre: <input type="text" id="nombreFormContacto" name="nombre"
+            maxlength="20"></label>
+        <label>Apellidos: <input type="text" id="apellidoFormContacto" name="apellidos"></label>
+        <label><input type="submit" value="Enviar" id="botonEnvio1"></label>
+    </form>
+</body>
+</html>
