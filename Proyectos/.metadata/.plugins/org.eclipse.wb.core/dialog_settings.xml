@@ -16,4 +16,10 @@
 		<item key="width" value="530"/>
 		<item key="height" value="346"/>
 	</section>
+	<section name="org.eclipse.wb.internal.core.nls.ui.NlsDialog">
+		<item key="x" value="400"/>
+		<item key="y" value="215"/>
+		<item key="width" value="800"/>
+		<item key="height" value="430"/>
+	</section>
 </section>

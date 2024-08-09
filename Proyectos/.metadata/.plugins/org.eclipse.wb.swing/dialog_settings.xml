@@ -18,4 +18,10 @@
 		<item key="width" value="476"/>
 		<item key="height" value="365"/>
 	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.spinner.SpinnerModelDialog">
+		<item key="x" value="537"/>
+		<item key="y" value="203"/>
+		<item key="width" value="525"/>
+		<item key="height" value="453"/>
+	</section>
 </section>
