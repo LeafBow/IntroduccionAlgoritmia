@@ -4,4 +4,9 @@
     <fullyQualifiedTypeName name="programas.FrmDescuentoCodigo"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="view.frmProveedores"/>
+    <fullyQualifiedTypeName name="view.FrmClientes"/>
+    <fullyQualifiedTypeName name="view.FrmProveedores"/>
+    <fullyQualifiedTypeName name="cibertec.Tienda1"/>
+    <fullyQualifiedTypeName name="cibertec.Tienda"/>
 </qualifiedTypeNameHistroy>
